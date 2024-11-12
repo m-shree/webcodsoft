@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="landing.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"></script>
+    <title>Night Safari Adventure</title>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="heading">Night Safari Adventure</div>
+        <span class="sideMenuButton" onclick="openNavbar()">&#9776;</span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Activities">Activities</a></li>
+                <li><a href="#Contact">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for responsive website -->
+    <div class="sideNavigationBar" id="sideNavigationBar">
+        <a href="#" class="closeButton" onclick="closeNavbar()">&#x274C;</a>
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Activities">Activities</a>
+        <a href="#Contact">Sign Up</a>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>Experience the Thrill of the Night</h1>
+            <p>Join us for an unforgettable night safari adventure under the stars.</p>
+            <button><a href="#Activities">Discover More</a></button>
+        </div>
+        <div class="side2">
+            <img src="./images/safari.webp" alt="Night Safari Scene" width="600">
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="about" id="About">
+        <div class="content">
+            <h2>About Us</h2>
+            <p>Welcome to our Night Safari Adventure! Explore the wilderness after dark, guided by experts, and witness the magic of the night under the moonlight.</p>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section class="activities" id="Activities">
+        <div class="content">
+            <h2>Our Activities</h2>
+            <div class="boxes">
+                <div class="box">
+                    <h3><i class="fas fa-binoculars"></i> Night Safari Tour</h3>
+                    <p>Explore the wilderness with expert guides. Spot nocturnal animals and enjoy the serene night landscape.</p>
+                </div>
+                <div class="box">
+                    <h3><i class="fas fa-fire"></i> Campfire Experience</h3>
+                    <p>Gather around a campfire, share stories, and enjoy stargazing in the quiet of the night.</p>
+                </div>
+                <div class="box">
+                    <h3><i class="fas fa-camera"></i> Photography Tour</h3>
+                    <p>Capture the beauty of the night with our guided photography tour, perfect for enthusiasts of all skill levels.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Contact Section (Alternative Sign Up Design) -->
+<section class="contact" id="Contact">
+    <div class="content">
+        <h2>Join the Night Safari Adventure</h2>
+        <p>Ready for the thrill? Sign up below to secure your spot on our exclusive night safari tours.</p>
+        <div class="sign-up-form">
+            <form>
+                <div class="input-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input-group">
+                    <label for="date">Choose a Date</label>
+                    <input type="date" id="date" required>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Sign up for our newsletter for updates.</label>
+                </div>
+                <button type="submit" class="submit-btn">Join the Adventure</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Created by Night Safari Adventure Team &copy; 2024</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script src="landing.js"></script>
+</body>
+
+</html>

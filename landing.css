@@ -1,0 +1,221 @@
+/* General Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #517396;
+    color: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #531111;
+        color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Side Navigation Bar */
+.sideNavigationBar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #531111;
+        overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sideNavigationBar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 2rem;
+}
+
+/* Hero Section */
+.line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: url('./images/night-safari-bg.jpg') no-repeat center center/cover;
+    color: #f1f1f1;
+}
+
+.side1 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.side1 p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #531111;
+        color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* About Section */
+.about {
+    padding: 50px;
+    background-color: #531111;
+        color: #ddd;
+}
+
+.about .content {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Activities Section */
+.activities {
+    padding: 50px;
+    background-color: #531111;}
+
+.activities .content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.activities .boxes {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.activities .box {
+    flex: 1;
+    min-width: 300px;
+    background-color: #531111;
+    color: #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Contact Section (Sign Up) */
+.contact {
+    padding: 50px;
+     background-color: #531111;;
+    color: #ddd;
+}
+
+.contact .content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.sign-up-form {
+    background-color: #531111;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sign-up-form .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.sign-up-form .input-group label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.sign-up-form .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.sign-up-form .checkbox-group {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.sign-up-form .checkbox-group input {
+    margin-right: 10px;
+}
+
+.submit-btn {
+    background-color: #2a3260;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #531111;}
+
+/* Footer */
+footer {
+    background-color: #531111;
+        color: #fff;
+    text-align: center;
+    padding: 20px;
+}
